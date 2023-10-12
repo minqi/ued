@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ued"
+version = "0.0.1"
+authors = [
+  { name"Minqi Jiang", email="mnqjng@gmail.com" },
+]
+description = "Unsupervised Environment Design"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: CC-BY-NC",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/minqi/ued"
+"Bug Tracker" = "https://github.com/minqi/ued/issues"
